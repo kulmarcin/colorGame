@@ -1,0 +1,69 @@
+body {
+  background: gray;
+  margin: 0;
+  font-family: 'Baloo 2';
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: steelblue;
+  margin: 0;
+  padding: 10px 0 10px 0;
+  transition: background-color 0.7s;
+}
+html {
+  height: 100vh;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  margin: 0;
+  transition: background-color 0.7s;
+  margin: 0 20px 0 10px;
+  background-color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.buttons {
+  text-align: center;
+  background-color: white;
+}
+
+.square {
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin: 1.6%;
+  border-radius: 15px;
+}
+
+.square:hover {
+  cursor: pointer;
+}
+
+.squareContainer {
+  margin: 0 auto;
+  width: 20%;
+}
+
+@media (max-width: 1500px) {
+  .squareContainer {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .squareContainer {
+    width: 40%;
+  }
+}
+
+.selected {
+  background-color: steelblue;
+}
